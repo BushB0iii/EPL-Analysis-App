@@ -1,0 +1,44 @@
+```gitignore
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database files
+*.db
+
+# CSV data files (if they are large or frequently changing)
+*.csv
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Distribution / build artifacts
+dist/
+build/
+*.egg-info/
+```
