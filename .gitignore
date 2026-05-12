@@ -1,6 +1,11 @@
 ```
-# Database file
-epl_scout.db
+# Database files
+*.db
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Dependencies
 .venv/
@@ -14,16 +19,11 @@ __pycache__/
 *.log
 *.tmp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
 ```
