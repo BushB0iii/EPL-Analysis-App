@@ -119,17 +119,38 @@ def show_home():
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        if st.button("👤 PLAYERS HUB\nBrowse all players", use_container_width=True, height=200):
+        st.markdown("""
+        <div style="background-color: #2D2D2D; padding: 30px; border-radius: 10px; text-align: center; min-height: 200px; display: flex; flex-direction: column; justify-content: center;">
+            <h2 style="color: #FFD700; font-size: 48px; margin: 0;">👤</h2>
+            <h3 style="color: #FFFFFF; margin: 10px 0;">PLAYERS HUB</h3>
+            <p style="color: #B0B0B0; margin: 10px 0;">Browse all players</p>
+        </div>
+        """, unsafe_allow_html=True)
+        if st.button("Browse Players", use_container_width=True, key="home_players"):
             st.session_state.current_view = 'players_hub'
             st.rerun()
     
     with col2:
-        if st.button("🔍 SCOUTING\nFind ideal profiles", use_container_width=True, height=200):
+        st.markdown("""
+        <div style="background-color: #2D2D2D; padding: 30px; border-radius: 10px; text-align: center; min-height: 200px; display: flex; flex-direction: column; justify-content: center;">
+            <h2 style="color: #FFD700; font-size: 48px; margin: 0;">🔍</h2>
+            <h3 style="color: #FFFFFF; margin: 10px 0;">SCOUTING</h3>
+            <p style="color: #B0B0B0; margin: 10px 0;">Find ideal profiles</p>
+        </div>
+        """, unsafe_allow_html=True)
+        if st.button("Start Scouting", use_container_width=True, key="home_scouting"):
             st.session_state.current_view = 'scouting'
             st.rerun()
     
     with col3:
-        if st.button("⭐ MY WATCHLIST\nTrack your players", use_container_width=True, height=200):
+        st.markdown("""
+        <div style="background-color: #2D2D2D; padding: 30px; border-radius: 10px; text-align: center; min-height: 200px; display: flex; flex-direction: column; justify-content: center;">
+            <h2 style="color: #FFD700; font-size: 48px; margin: 0;">⭐</h2>
+            <h3 style="color: #FFFFFF; margin: 10px 0;">MY WATCHLIST</h3>
+            <p style="color: #B0B0B0; margin: 10px 0;">Track your players</p>
+        </div>
+        """, unsafe_allow_html=True)
+        if st.button("View Watchlist", use_container_width=True, key="home_watchlist"):
             st.session_state.current_view = 'watchlist'
             st.rerun()
     
