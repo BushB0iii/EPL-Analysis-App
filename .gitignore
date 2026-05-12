@@ -20,36 +20,30 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
-# Virtual environments
+# Database
+/epl_scout.db
+
+# Environment
+.env
+.env.local
+.env.*
+.venv/
 venv/
 ENV/
-env/
-.venv/
-.env/
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
 
 # Logs
 *.log
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Coverage
 .coverage
 coverage/
 htmlcov/
-
-# Temporary files
-*.tmp
-.DS_Store
-Thumbs.db
 ```
