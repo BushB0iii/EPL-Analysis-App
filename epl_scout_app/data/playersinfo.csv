@@ -1,7 +1,0 @@
-player_id,first_name,last_name,name,last_season,club_id,country_of_citizenship,date_of_birth,sub_position,position,foot,height_in_cm,contract_expiration_date,image_url,current_club_name,market_value_in_eur
-0101,Riccardo,Calafiori,Riccardo Calafiori,2025,01,Italy,2002-05-19,Left-Back,Defender,left,188,2029-06-30,https://img.a.transfermarkt.technology/portrait/header/502821-1727382174.jpg?lm=1,Arsenal,50000000
-0102,Jurrien,Timber,J. Timber,2025,01,Netherlands,2001-06-17,Right-Back,Defender,right,179,2028-06-30,https://img.a.transfermarkt.technology/portrait/header/420243-1702413077.jpg?lm=1,Arsenal,70000000
-0103,Jakub,Kiwior,Kiwior,2025,01,Poland,2000-02-15,Centre-Back,Defender,left,189,2026-06-30,https://img.a.transfermarkt.technology/portrait/header/425918-1683101307.jpg?lm=1,Arsenal,27000000
-0104,Myles,Lewis-Skelly,Lewis-Skelly,2025,01,England,2006-09-26,Left-Back,Defender,left,178,2030-06-30,https://img.a.transfermarkt.technology/portrait/header/890721-1758053582.jpg?lm=1,Arsenal,3500000
-0501,Emiliano,Martinez,Martinez,2025,05,Argentina,1992-09-02,Goalkeeper,Goalkeeper,right,195,2029-06-30,https://img.a.transfermarkt.technology/portrait/header/111873-1668180824.jpg?lm=1,Aston Villa,15000000
-0105,Ben,White,White,2025,01,England,1997-10-08,Right-Back,Defender,right,186,2028-06-30,https://img.a.transfermarkt.technology/portrait/header/335721-1683275943.jpg?lm=1,Arsenal,30000000
